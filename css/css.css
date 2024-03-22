@@ -1,0 +1,134 @@
+  /* Set the overall layout of the page */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style the side menu */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .sidebar a:hover {
+    color: #ccc;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .dropdown-content a:hover {
+    color: #ccc;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Style the main content area */
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .signup-button {
+    margin-top: 400%;
+  }
+
+  .signup-button input[type="email"] {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .signup-button input[type="email"]:focus {
+    border-color: #000;
+  }
+
+  .signup-button a {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .signup-button a:hover {
+    background-color: #45a049;
+  }
+
+
+
+  .tilmeldt {
+    padding-left: 33%;
+    padding-top: 25%;
+    color: rgb(0, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+
+ 
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  .main-content {
+    padding: 20px;
+  }
+  .content-box {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  p {
+    line-height: 1.6;
+  }
